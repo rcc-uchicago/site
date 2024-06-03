@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7"  lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8"  lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"  lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html  lang="en" dir="ltr"><!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="https://rcc.uchicago.edu/sites/all/themes/rcc/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="generator" content="Drupal 7 (https://www.drupal.org)" />
+<link rel="canonical" href="rcc-python-module-r.html" />
+<link rel="shortlink" href="rcc-python-module-r.html" />
+  <title>| Research Computing Center</title>
+
+  
+  <meta name="MobileOptimized" content="width">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+
+  <style>
+@import url("../../../modules/system/system.base.css@s8ehb9.css");
+</style>
+<style>
+@import url("../../../sites/all/modules/calendar/css/calendar_multiday.css@s8ehb9.css");
+@import url("https://rcc.uchicago.edu/sites/all/modules/date/date_api/date.css?s8ehb9");
+@import url("../../../modules/field/theme/field.css@s8ehb9.css");
+@import url("https://rcc.uchicago.edu/modules/node/node.css?s8ehb9");
+@import url("../../../modules/search/search.css@s8ehb9.css");
+@import url("https://rcc.uchicago.edu/modules/user/user.css?s8ehb9");
+@import url("../../../sites/all/modules/views/css/views.css@s8ehb9.css");
+@import url("https://rcc.uchicago.edu/sites/all/modules/ckeditor/css/ckeditor.css?s8ehb9");
+</style>
+<style>
+@import url("../../../sites/all/modules/ctools/css/ctools.css@s8ehb9.css");
+@import url("../../../sites/all/modules/calendar/css/calendar-overlap.css@s8ehb9.css");
+@import url("../../../sites/all/modules/date/date_views/css/date_views.css@s8ehb9.css");
+@import url("https://rcc.uchicago.edu/sites/rcc.uchicago.edu/files/honeypot/honeypot.css?s8ehb9");
+@import url("../../../sites/all/modules/webform/css/webform.css@s8ehb9.css");
+</style>
+<style media="screen">
+@import url("../../../sites/all/themes/rcc/css/styles.css@s8ehb9.css");
+</style>
+<style media="print">
+@import url("https://rcc.uchicago.edu/sites/all/themes/rcc/css/print.css?s8ehb9");
+</style>
+
+  <!--[if lt IE 9]>
+  <script src="/sites/all/themes/zen/js/respond.js"></script>
+  <![endif]-->
+
+  <script src="../../../sites/all/themes/rcc/js/modern.js"></script>
+
+  <script type="text/javascript">
+    // For preventing flash of unstyled content
+    document.documentElement.className += ' foucjs';
+  </script>
+
+  <!--
+  /* @license
+   * MyFonts Webfont Build ID 1316338, 2011-10-03T10:50:35-0400
+   * 
+   * The fonts listed in this notice are subject to the End User License
+   * Agreement(s) entered into by the website owner. All other parties are 
+   * explicitly restricted from using the Licensed Webfonts(s).
+   * 
+   * You may obtain a valid license at the URLs below.
+   * 
+   * Webfont: Proxima Nova Thin by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/thin/
+   * Licensed pageviews: 10,000,000
+   * 
+   * Webfont: Proxima Nova Regular by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/regular/
+   * Licensed pageviews: 10,000,000
+   * 
+   * Webfont: Proxima Nova Semibold by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/semibold/
+   * Licensed pageviews: 10,000,000
+   * 
+   * Webfont: Proxima Nova Light by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/light/
+   * Licensed pageviews: 10,000,000
+   * 
+   * Webfont: Proxima Nova Bold by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/bold/
+   * Licensed pageviews: 10,000,000
+   * 
+   * 
+   * License: http://www.myfonts.com/viewlicense?type=web&buildid=1316338
+   * Webfonts copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
+   * 
+   * © 2011 Bitstream Inc
+  */
+-->
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-calendar-node-field-event-date page-calendar-node-field-event-date-day page-calendar-node-field-event-date-day-2024-01-23 page-calendar-node-field-event-date-day-2024-01-23-rcc-python-module-r section-calendar-node-field-event-date page-views" >
+  <p id="skip-link">
+    <a href="rcc-python-module-r.html#main-content">Skip to main content</a>
+    <a href="rcc-python-module-r.html#left-nav">Skip to internal navigation</a>
+  </p>
+    
+<div class="header-container">
+
+  <div id="alert-banner" class="clearfix">
+    <div class="view view-alert-banner view-id-alert_banner view-display-id-block view-dom-id-c393a65de23985191889d50d8fe0572e">
+        
+  
+  
+  
+  
+  
+  
+  
+  
+</div>  </div>
+  <div class="navbar">
+    <div class="navbar-inner">
+      <!--<div class="mobile-branding">
+        <div class="uc-wordmark-mobile">The University of Chicago</div>
+      </div>-->
+      <div class="triangles-container uRight">
+        <div class="bgGreen0 u-h40 uRight">
+          <button type="button" class="btn btn-navbar nav-button" title="Toggle Sub-navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="bgGreen0 u-h40 triangle left triGrey2 uRight" style="border-width: 40px 23px 0 0;"></div>
+        <div class="bgGrey1 u-h40 triangle right triGrey2 uRight" style="border-width: 40px 0 0 23px;"></div>
+        <div class="bgGrey1 u-h40 triangle left triGrey0 uRight" style="border-width: 40px 23px 0 0;"></div>
+      </div>
+    </div>
+  </div>
+  <div class="top-nav-container clearfix mobile" role="navigation">
+    <div class="top-nav-inner not-front">
+      <div class="menu">
+        <ul>
+<li><a href="https://rcc.uchicago.edu/getting-started/request-account">Request Account</a></li>
+<li><a href="../../../docs/data-transfer/index.html" target="_blank">User Guide</a></li>
+<!-- <li><a href="/midway3">Midway3</a></li> -->
+<li><a href="../../../node/131.html">Contact Us</a></li>
+</ul>
+
+<div class="triangles" style="float: left; height: 35px;">
+<div class="bgGreen3 triangle left triGrey0 uLeft" style="width: 23px; height: 35px;">
+</div>
+</div><hr><div class="view view-rich-nav-links view-id-rich_nav_links view-display-id-block_1 view-dom-id-e06da61937478f64f03b81a2ca6c0b78">
+        
+  
+  
+      <div class="view-content">
+      <ul class="menu">
+  
+	<li>
+      
+          <a href="../../../node/86.html" id="section-getting-started">Accounts &amp; Allocations</a>    
+          <div class="menu-block-id" data-menu-block-id="5"></div>      <div class="triangle hidden-mobile"></div>
+    </li>
+ 
+  
+	<li>
+      
+          <a href="../../../node/89.html" id="section-resources">Resources</a>    
+          <div class="menu-block-id" data-menu-block-id="6"></div>      <div class="triangle hidden-mobile"></div>
+    </li>
+ 
+  
+	<li>
+      
+          <a href="../../../node/98.html" id="section-research">Grants &amp; Publications</a>    
+          <div class="menu-block-id" data-menu-block-id="7"></div>      <div class="triangle hidden-mobile"></div>
+    </li>
+ 
+  
+	<li>
+      
+          <a href="https://rcc.uchicago.edu/support-and-services" id="section-support-and-services">Support &amp; Services</a>    
+          <div class="menu-block-id" data-menu-block-id="8"></div>      <div class="triangle hidden-mobile"></div>
+    </li>
+ 
+  
+	<li>
+      
+          <a href="../../../node/112.html" id="section-about-rcc">About RCC</a>    
+          <div class="menu-block-id" data-menu-block-id="9"></div>      <div class="triangle hidden-mobile"></div>
+    </li>
+ 
+ </ul>    </div>
+  
+  
+  
+  
+  
+  
+</div>        <div class="search-wrapper">
+          <form method="get" id="search" action="https://rcc.uchicago.edu/search">
+            <input type="text" size="15" id="searchterm" name="GSAq" placeholder="search" class="ss-icon" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="utility-nav-wrapper">
+    <div class="grid-wrapper">
+        <div class="region region-utility-nav">
+    <div id="block-block-8" class="block block-block first odd">
+
+      
+  <ul>
+<li><a href="https://rcc.uchicago.edu/getting-started/request-account">Request Account</a></li>
+<li><a href="../../../docs/data-transfer/index.html" target="_blank">User Guide</a></li>
+<!-- <li><a href="/midway3">Midway3</a></li> -->
+<li><a href="../../../node/131.html">Contact Us</a></li>
+</ul>
+
+<div class="triangles" style="float: left; height: 35px;">
+<div class="bgGreen3 triangle left triGrey0 uLeft" style="width: 23px; height: 35px;">
+</div>
+</div>
+</div>
+<div id="block-block-7" class="block block-block even">
+
+      
+  <div class="bgGreen3 u-h35 uLeft">
+</div>
+<div class="bgGreen2 triangle left triGreen3 uLeft"></div>
+<div class="bgGreen2 triangle right triGreen1 uLeft"></div>
+<div class="uLeft nested-triangle-container">
+<div class="bgGreen0 triangle left triGreen1 uLeft" style="position: absolute; top: 0; left: 0; z-index: 143;"></div>
+<div id="tinytriangle"></div>
+<div id="tinytriangle-border"></div>
+</div>
+</div>
+<div id="block-block-11" class="block block-block last odd">
+
+      
+  <div class="bgGreen0" style="padding-right: 3333px; margin-right: -3333px;">
+<div class="search-wrapper">
+<form method="get" id="search" action="https://rcc.uchicago.edu/search/node">
+<label for="searchterm" class="ss-icon">Search
+  </label>
+<input type="text" size="15" id="searchterm" name="keys" placeholder="" />
+</form>
+</div>
+</div>
+</div>
+  </div>
+    </div>
+  </div>
+  <header class="header" id="header" role="banner">
+    <div class="grid-wrapper full-width">
+      <div id="title-wrapper" class="clearfix">
+        <h1 id="site-name">
+          <a href="../../../index.html" title="Home" rel="home"><span>Research Computing Center</span></a>
+        </h1>
+        <div class="triangle-top-left">
+
+        </div>
+      </div>
+      <div class="top-nav-container clearfix desktop" role="navigation">
+        <div class="top-nav-inner not-front">
+          <div class="view view-rich-nav-links view-id-rich_nav_links view-display-id-block_1 view-dom-id-7a168efa902653f7742b5310ce9e8288">
+        
+  
+  
+      <div class="view-content">
+      <ul class="menu">
+  
+	<li>
+      
+          <a href="../../../node/86.html" id="section-getting-started">Accounts &amp; Allocations</a>    
+          <div class="menu-block-id" data-menu-block-id="5"></div>      <div class="triangle hidden-mobile"></div>
+    </li>
+ 
+  
+	<li>
+      
+          <a href="../../../node/89.html" id="section-resources">Resources</a>    
+          <div class="menu-block-id" data-menu-block-id="6"></div>      <div class="triangle hidden-mobile"></div>
+    </li>
+ 
+  
+	<li>
+      
+          <a href="../../../node/98.html" id="section-research">Grants &amp; Publications</a>    
+          <div class="menu-block-id" data-menu-block-id="7"></div>      <div class="triangle hidden-mobile"></div>
+    </li>
+ 
+  
+	<li>
+      
+          <a href="https://rcc.uchicago.edu/support-and-services" id="section-support-and-services">Support &amp; Services</a>    
+          <div class="menu-block-id" data-menu-block-id="8"></div>      <div class="triangle hidden-mobile"></div>
+    </li>
+ 
+  
+	<li>
+      
+          <a href="../../../node/112.html" id="section-about-rcc">About RCC</a>    
+          <div class="menu-block-id" data-menu-block-id="9"></div>      <div class="triangle hidden-mobile"></div>
+    </li>
+ 
+ </ul>    </div>
+  
+  
+  
+  
+  
+  
+</div>        </div>
+      </div>
+        </div>
+</header>
+</div>
+
+
+
+<div id="page">
+  <div id="main">
+    
+    
+        <div id="content-top">
+      <div class="page-title-wrapper clearfix">
+                            
+    </div>
+    <nav class="breadcrumb" role="navigation"><h2 class="element-invisible">You are here</h2><ol><li><a href="../../../index.html">Home</a> › </li><li></li></ol></nav>    
+  </div>
+
+<a id="main-content"></a>
+<div id="featured">
+  </div>
+
+
+<div id="content-wrapper">
+    <aside class="sidebars">
+    <a id="left-nav"></a>
+        <div class="mobile-section-navigation"><a href="rcc-python-module-r.html#">Section Navigation <span class="ss-icon ss-standard">navigateright</span></a></div>
+        <section class="region region-sidebar-first column sidebar">
+    <div id="block-block-18" class="block block-block first last odd">
+
+      
+  <ul>
+<li>
+<a href="https://rcc.uchicago.edu/getting-started/request-account">
+<div class="date bgGrey1 uLeft left hasText">
+            Get an Account
+        </div>
+        <div class="triangle left triGrey1 uLeft">
+            &nbsp;
+        </div>
+</a>
+</li>
+<li>
+<a href="../../../docs/data-transfer/index.html" target="_blank">
+<div class="date bgGrey2 uLeft left hasText">
+            User Guide
+        </div>
+        <div class="triangle left triGrey2 uLeft">
+            &nbsp;
+        </div>
+</a>
+</li>
+<li>
+<a href="../../../node/109.html">
+<div class="date bgGrey3 uLeft left hasText">
+            Get Support
+        </div>
+        <div class="triangle left triGrey3 uLeft">
+            &nbsp;
+        </div>
+</a>
+</li>
+</ul>
+</div>
+  </section>
+  </aside>
+
+<div id="content" class="column" role="main">
+  
+    <!--<aside class="sidebars">
+    <a id="left-nav"></a>
+    <div class="mobile-section-navigation"><a href="#">Section Navigation <span class="ss-icon ss-standard">navigateright</span></a></div>
+          </aside>-->
+
+    
+
+
+<div class="view view-event-calendar view-id-event_calendar view-display-id-page_3 view-dom-id-0ccb18cdececbd835b1099e96e090c43">
+            <div class="view-header">
+      <div class="date-nav-wrapper clearfix">
+  <div class="date-nav item-list">
+    <div class="date-heading">
+      <h3>Tuesday, January 23, 2024</h3>
+    </div>
+    <ul class="pager">
+          <li class="date-prev">
+        <a href="../2024-01-22/rcc-python-module-r.html" title="Navigate to previous day" rel="nofollow">&laquo; Prev</a>      </li>
+              <li class="date-next">
+        <a href="../2024-01-24/rcc-python-module-r.html" title="Navigate to next day" rel="nofollow">Next &raquo;</a>      </li>
+        </ul>
+  </div>
+</div>
+    </div>
+  
+  
+  
+      <div class="view-content">
+      <div class="calendar-calendar"><div class="day-view">
+<div id="multi-day-container">
+  <table class="full">
+    <tbody>
+      <tr class="holder">
+        <td class="calendar-time-holder"></td>
+        <td class="calendar-day-holder"></td>
+      </tr>
+      <tr>
+        <td class="calendar-agenda-hour first">
+           <span class="calendar-hour">All day</span>
+        </td>
+        <td class="calendar-agenda-items multi-day last">
+                    <div class="calendar">
+            <div class="inner">
+              &nbsp;            </div>
+          </div>
+                  </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="header-body-divider">&nbsp;</div>
+<div id="single-day-container">
+    <script>
+    try {
+        // Hide container while it renders...  Degrade w/o javascript support
+      jQuery('#single-day-container').css('visibility','hidden');
+    }catch(e){
+      // swallow
+    }
+  </script>
+    <table class="full">
+    <tbody>
+      <tr class="holder">
+        <td class="calendar-time-holder"></td>
+        <td class="calendar-day-holder"></td>
+      </tr>
+      <tr>
+        <td class="first">
+                                            <div class="first calendar-agenda-hour">
+              <span class="calendar-hour">Before 01</span><span class="calendar-ampm"></span>
+            </div>
+                                  <div class="calendar-agenda-hour">
+              <span class="calendar-hour">01</span><span class="calendar-ampm"></span>
+            </div>
+                                  <div class="calendar-agenda-hour">
+              <span class="calendar-hour">02</span><span class="calendar-ampm"></span>
+            </div>
+                                  <div class="calendar-agenda-hour">
+              <span class="calendar-hour">03</span><span class="calendar-ampm"></span>
+            </div>
+                                  <div class="calendar-agenda-hour">
+              <span class="calendar-hour">04</span><span class="calendar-ampm"></span>
+            </div>
+                                  <div class="calendar-agenda-hour">
+              <span class="calendar-hour">05</span><span class="calendar-ampm"></span>
+            </div>
+                                  <div class="calendar-agenda-hour">
+              <span class="calendar-hour">06</span><span class="calendar-ampm"></span>
+            </div>
+                                  <div class="calendar-agenda-hour">
+              <span class="calendar-hour">07</span><span class="calendar-ampm"></span>
+            </div>
+                                  <div class="calendar-agenda-hour">
+              <span class="calendar-hour">08</span><span class="calendar-ampm"></span>
+            </div>
+                                  <div class="calendar-agenda-hour">
+              <span class="calendar-hour">09</span><span class="calendar-ampm"></span>
+            </div>
+                                  <div class="calendar-agenda-hour">
+              <span class="calendar-hour">10</span><span class="calendar-ampm"></span>
+            </div>
+                                  <div class="calendar-agenda-hour">
+              <span class="calendar-hour">11</span><span class="calendar-ampm"></span>
+            </div>
+                                  <div class="calendar-agenda-hour">
+              <span class="calendar-hour">12</span><span class="calendar-ampm"></span>
+            </div>
+                                  <div class="calendar-agenda-hour">
+              <span class="calendar-hour">13</span><span class="calendar-ampm"></span>
+            </div>
+                                  <div class="calendar-agenda-hour">
+              <span class="calendar-hour">14</span><span class="calendar-ampm"></span>
+            </div>
+                                  <div class="calendar-agenda-hour">
+              <span class="calendar-hour">15</span><span class="calendar-ampm"></span>
+            </div>
+                                  <div class="calendar-agenda-hour">
+              <span class="calendar-hour">16</span><span class="calendar-ampm"></span>
+            </div>
+                                  <div class="calendar-agenda-hour">
+              <span class="calendar-hour">17</span><span class="calendar-ampm"></span>
+            </div>
+                                  <div class="calendar-agenda-hour">
+              <span class="calendar-hour">18</span><span class="calendar-ampm"></span>
+            </div>
+                                  <div class="calendar-agenda-hour">
+              <span class="calendar-hour">19</span><span class="calendar-ampm"></span>
+            </div>
+                                  <div class="calendar-agenda-hour">
+              <span class="calendar-hour">20</span><span class="calendar-ampm"></span>
+            </div>
+                                  <div class="calendar-agenda-hour">
+              <span class="calendar-hour">21</span><span class="calendar-ampm"></span>
+            </div>
+                                  <div class="calendar-agenda-hour">
+              <span class="calendar-hour">22</span><span class="calendar-ampm"></span>
+            </div>
+                                  <div class="last calendar-agenda-hour">
+              <span class="calendar-hour">23</span><span class="calendar-ampm"></span>
+            </div>
+                  </td>
+        <td class="last">
+                                <div class="first calendar-agenda-items single-day">
+            <div class="half-hour">&nbsp;</div>
+                        <div class="calendar item-wrapper">
+                          <div class="inner">
+                                &nbsp;                             </div>
+            </div>
+          </div>
+                                <div class="calendar-agenda-items single-day">
+            <div class="half-hour">&nbsp;</div>
+                        <div class="calendar item-wrapper">
+                          <div class="inner">
+                                &nbsp;                             </div>
+            </div>
+          </div>
+                                <div class="calendar-agenda-items single-day">
+            <div class="half-hour">&nbsp;</div>
+                        <div class="calendar item-wrapper">
+                          <div class="inner">
+                                &nbsp;                             </div>
+            </div>
+          </div>
+                                <div class="calendar-agenda-items single-day">
+            <div class="half-hour">&nbsp;</div>
+                        <div class="calendar item-wrapper">
+                          <div class="inner">
+                                &nbsp;                             </div>
+            </div>
+          </div>
+                                <div class="calendar-agenda-items single-day">
+            <div class="half-hour">&nbsp;</div>
+                        <div class="calendar item-wrapper">
+                          <div class="inner">
+                                &nbsp;                             </div>
+            </div>
+          </div>
+                                <div class="calendar-agenda-items single-day">
+            <div class="half-hour">&nbsp;</div>
+                        <div class="calendar item-wrapper">
+                          <div class="inner">
+                                &nbsp;                             </div>
+            </div>
+          </div>
+                                <div class="calendar-agenda-items single-day">
+            <div class="half-hour">&nbsp;</div>
+                        <div class="calendar item-wrapper">
+                          <div class="inner">
+                                &nbsp;                             </div>
+            </div>
+          </div>
+                                <div class="calendar-agenda-items single-day">
+            <div class="half-hour">&nbsp;</div>
+                        <div class="calendar item-wrapper">
+                          <div class="inner">
+                                &nbsp;                             </div>
+            </div>
+          </div>
+                                <div class="calendar-agenda-items single-day">
+            <div class="half-hour">&nbsp;</div>
+                        <div class="calendar item-wrapper">
+                          <div class="inner">
+                                &nbsp;                             </div>
+            </div>
+          </div>
+                                <div class="calendar-agenda-items single-day">
+            <div class="half-hour">&nbsp;</div>
+                        <div class="calendar item-wrapper">
+                          <div class="inner">
+                                &nbsp;                             </div>
+            </div>
+          </div>
+                                <div class="calendar-agenda-items single-day">
+            <div class="half-hour">&nbsp;</div>
+                        <div class="calendar item-wrapper">
+                          <div class="inner">
+                                &nbsp;                             </div>
+            </div>
+          </div>
+                                <div class="calendar-agenda-items single-day">
+            <div class="half-hour">&nbsp;</div>
+                        <div class="calendar item-wrapper">
+                          <div class="inner">
+                                &nbsp;                             </div>
+            </div>
+          </div>
+                                <div class="calendar-agenda-items single-day">
+            <div class="half-hour">&nbsp;</div>
+                        <div class="calendar item-wrapper">
+                          <div class="inner">
+                                &nbsp;                             </div>
+            </div>
+          </div>
+                                <div class="calendar-agenda-items single-day">
+            <div class="half-hour">&nbsp;</div>
+                        <div class="calendar item-wrapper">
+                          <div class="inner">
+                                &nbsp;                             </div>
+            </div>
+          </div>
+                                <div class="calendar-agenda-items single-day">
+            <div class="half-hour">&nbsp;</div>
+                        <div class="calendar item-wrapper">
+                          <div class="inner">
+                                &nbsp;                             </div>
+            </div>
+          </div>
+                                <div class="calendar-agenda-items single-day">
+            <div class="half-hour">&nbsp;</div>
+                        <div class="calendar item-wrapper">
+                          <div class="inner">
+                                &nbsp;                             </div>
+            </div>
+          </div>
+                                <div class="calendar-agenda-items single-day">
+            <div class="half-hour">&nbsp;</div>
+                        <div class="calendar item-wrapper">
+                          <div class="inner">
+                                &nbsp;                             </div>
+            </div>
+          </div>
+                                <div class="calendar-agenda-items single-day">
+            <div class="half-hour">&nbsp;</div>
+                        <div class="calendar item-wrapper">
+                          <div class="inner">
+                                &nbsp;                             </div>
+            </div>
+          </div>
+                                <div class="calendar-agenda-items single-day">
+            <div class="half-hour">&nbsp;</div>
+                        <div class="calendar item-wrapper">
+                          <div class="inner">
+                                &nbsp;                             </div>
+            </div>
+          </div>
+                                <div class="calendar-agenda-items single-day">
+            <div class="half-hour">&nbsp;</div>
+                        <div class="calendar item-wrapper">
+                          <div class="inner">
+                                &nbsp;                             </div>
+            </div>
+          </div>
+                                <div class="calendar-agenda-items single-day">
+            <div class="half-hour">&nbsp;</div>
+                        <div class="calendar item-wrapper">
+                          <div class="inner">
+                                &nbsp;                             </div>
+            </div>
+          </div>
+                                <div class="calendar-agenda-items single-day">
+            <div class="half-hour">&nbsp;</div>
+                        <div class="calendar item-wrapper">
+                          <div class="inner">
+                                &nbsp;                             </div>
+            </div>
+          </div>
+                                <div class="calendar-agenda-items single-day">
+            <div class="half-hour">&nbsp;</div>
+                        <div class="calendar item-wrapper">
+                          <div class="inner">
+                                &nbsp;                             </div>
+            </div>
+          </div>
+                                <div class="last calendar-agenda-items single-day">
+            <div class="half-hour">&nbsp;</div>
+                        <div class="calendar item-wrapper">
+                          <div class="inner">
+                                &nbsp;                             </div>
+            </div>
+          </div>
+                  </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="single-day-footer">&nbsp;</div>
+</div></div>
+<script>
+try {
+  // Size and position the viewport inline so there are no delays
+  calendar_resizeViewport(jQuery);
+  calendar_scrollToFirst(jQuery);
+  jQuery('#single-day-container').css('visibility','visible');
+}catch(e){
+  // swallow
+}
+</script>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+
+<div class="footer-container">
+  <footer id="footer">
+    <div class="grid-wrapper">
+
+        <div class="region region-footer-first">
+    <div id="block-block-10" class="block block-block first last odd">
+
+      
+  <div class="wordmark-wrapper">
+<a href="http://www.uchicago.edu" title="The University of Chicago" alt="The University of Chicago"><img src="../../../sites/all/themes/rcc/images/UChicago_WHITE.svg"></a>
+</div>
+<p><strong>Research Computing Center</strong><br>
+6054 S. Drexel Ave. <br>
+Chicago IL 60637</p>
+<p><a href="../../../user@destination=calendar-node-field-event-date%252Fday%252F2024-01-23%252Frcc-python-module-r.html" class="login-link">&copy;</a> 2014-2023 <strong>The University of Chicago</strong></p>
+</div>
+  </div>
+      <div class="footer-links-wrapper">
+          <div class="region region-footer-second">
+    <div id="block-block-3" class="block block-block first last odd">
+
+      
+  <p><a href="https://rcc.uchicago.edu/getting-started/request-account">Request Account</a></p>
+
+<p><a href="../../../docs/data-transfer/index.html" target="_blank">User Guide</a></p>
+
+<p><a href="../../../resources/high-performance-computing.html">High Performance Computing</a></p>
+</div>
+  </div>
+          <div class="region region-footer-third">
+    <div id="block-block-4" class="block block-block first last odd">
+
+      
+  <p><a href="../../../node/131.html">Location and Directions</a></p>
+
+<p><a href="../../../about-rcc/event-calendar.html">Calendar</a></p>
+
+<!-- <p><a href="/subscribe">Subscribe</a></p> -->
+
+</div>
+  </div>
+      </div>
+              <div class="region region-footer-fifth">
+    <div id="block-block-19" class="block block-block first odd">
+
+        <h2 class="block__title block-title">Need Help?</h2>
+    
+  <p>Email: <strong>help@rcc.uchicago.edu</strong> or <a href="../../../node/109.html"><strong>Request Support</strong></a></p>
+
+<p>Walk-In Laboratory: <strong>Regenstein Library</strong>, suite 216</p>
+
+<p>Call us at <strong>(773) 795-2667</strong> or consult the <a href="../../../docs.html"><strong>User Guide</strong></a></p>
+
+<div style="margin-left: -6px">
+<a href="https://www.linkedin.com/company/the-university-of-chicago-research-computing-center" target="_blank"><svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>Linkedin</title>
+        <g id="Icon/Social/linkedin-color" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <path d="M20.9716667,33.5527338 L25.001,33.5527338 L25.001,27.1328007 C25.001,25.439485 25.3213333,23.7988354 27.4206667,23.7988354 C29.491,23.7988354 29.517,25.7351486 29.517,27.2404662 L29.517,33.5527338 L33.5506667,33.5527338 L33.5506667,26.4341413 C33.5506667,22.9381777 32.796,20.2505391 28.711,20.2505391 C26.7483333,20.2505391 25.432,21.3265278 24.8943333,22.3471839 L24.839,22.3471839 L24.839,20.5725357 L20.9716667,20.5725357 L20.9716667,33.5527338 Z M16.423,14.1202696 C15.1273333,14.1202696 14.0823333,15.1682587 14.0823333,16.4595785 C14.0823333,17.7508984 15.1273333,18.7992208 16.423,18.7992208 C17.7133333,18.7992208 18.761,17.7508984 18.761,16.4595785 C18.761,15.1682587 17.7133333,14.1202696 16.423,14.1202696 L16.423,14.1202696 Z M14.4026667,33.5527338 L18.4406667,33.5527338 L18.4406667,20.5725357 L14.4026667,20.5725357 L14.4026667,33.5527338 Z M9.76633333,40 C8.79033333,40 8,39.2090082 8,38.2336851 L8,9.76631493 C8,8.79065843 8.79033333,8 9.76633333,8 L38.234,8 C39.2093333,8 40,8.79065843 40,9.76631493 L40,38.2336851 C40,39.2090082 39.2093333,40 38.234,40 L9.76633333,40 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </svg></a>&nbsp;&nbsp;
+<a href="https://twitter.com/UChicago_RCC" target="_blank"><svg width="32px" height="48px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Twitter</title>
+    <g id="Icon/Social/twitter-white" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" id="Shape" fill="#ffffff"></path>
+    </g>
+</svg></a>
+<!-- SVG taken from https://webcomponents.ucla.edu/build/1.0.0-beta.8/components/detail/social-svg--linkedin.html -->
+</div>
+</div>
+<div id="block-webform-client-block-402" class="block block-webform last even">
+
+      
+  <article class="node-402 node node-webform view-mode-full clearfix">
+
+      <header>
+                    <h2 class="node__title node-title"><a href="../../../node/402.html">Subscribe to our newsletter</a></h2>
+            
+      
+          </header>
+  
+  
+<style>
+.node-402 h2 {
+padding: 0 !important;
+}
+
+.node-402 .form-item.webform-component-email {
+margin: 10px 0;
+}
+</style><form class="webform-client-form" enctype="multipart/form-data" action="../../../node/402.html" method="post" id="webform-client-form-402" accept-charset="UTF-8"><div><div class="form-item webform-component webform-component-email" id="webform-component-e-mail-address">
+  <label class="element-invisible" for="edit-submitted-e-mail-address">E-mail address <span class="form-required" title="This field is required.">*</span></label>
+ <input class="email form-text form-email required" placeholder="E-mail address" type="email" id="edit-submitted-e-mail-address" name="submitted[e_mail_address]" size="60" />
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="1" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-MysvWjX-q6X55s9S9UDzZZsg_0RfBTzXgHMoftMl9fQ" />
+<input type="hidden" name="form_id" value="webform_client_form_402" />
+<input type="hidden" name="honeypot_time" value="1717182555|1q3lN3s4ixhkacB5yMNJJV9eG-55qdz-EoyQpa8lifM" />
+<div class="url-textfield"><div class="form-item form-type-textfield form-item-url">
+  <label for="edit-url">Leave this field blank </label>
+ <input autocomplete="off" type="text" id="edit-url" name="url" value="" size="20" maxlength="128" class="form-text" />
+</div>
+</div><div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Subscribe" class="form-submit" /></div></div></form>
+  
+  
+</article>
+
+</div>
+  </div>
+    </div>
+  </div>
+</div>
+
+    <script src="https://rcc.uchicago.edu/misc/jquery.js?v=1.4.4"></script>
+<script src="../../../misc/jquery-extend-3.4.0.js@v=1.4.4"></script>
+<script src="https://rcc.uchicago.edu/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.4.4"></script>
+<script src="../../../misc/jquery.once.js@v=1.2"></script>
+<script src="../../../misc/drupal.js@s8ehb9"></script>
+<script src="../../../misc/form-single-submit.js@v=7.98"></script>
+<script src="../../../sites/all/modules/calendar/js/calendar_overlap.js@s8ehb9"></script>
+<script src="https://rcc.uchicago.edu/sites/all/modules/webform/js/webform.js?s8ehb9"></script>
+<script src="../../../sites/all/modules/google_analytics/googleanalytics.js@s8ehb9"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-56248308-1", {"cookieDomain":"auto"});ga("send", "pageview");</script>
+<script src="../../../sites/all/themes/rcc/js/script.js@s8ehb9"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"rcc","theme_token":"LkdUMNEz0MwXJsUnD4vB408FfZ-SK1iPlmxBy0mRBjA","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/form-single-submit.js":1,"sites\/all\/modules\/calendar\/js\/calendar_overlap.js":1,"sites\/all\/modules\/webform\/js\/webform.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/rcc\/js\/script.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/calendar\/css\/calendar-overlap.css":1,"sites\/all\/modules\/date\/date_views\/css\/date_views.css":1,"public:\/\/honeypot\/honeypot.css":1,"sites\/all\/modules\/webform\/css\/webform.css":1,"sites\/all\/themes\/rcc\/system.menus.css":1,"sites\/all\/themes\/rcc\/system.messages.css":1,"sites\/all\/themes\/rcc\/system.theme.css":1,"sites\/all\/themes\/rcc\/css\/styles.css":1,"sites\/all\/themes\/rcc\/css\/print.css":1}},"urlIsAjaxTrusted":{"\/getting-started\/subscribe-our-newsletter":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});</script>
+      <script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=webserv"></script>
+  </body>
+</html>
